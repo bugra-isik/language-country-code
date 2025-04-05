@@ -14,7 +14,16 @@
     "code",
     "country-code",
     "language-code",
-    "npm"
+    "npm",
+    "country-to-language",
+    "language-to-country",
+    "localization",
+    "internationalization",
+    "i18n",
+    "geolocation",
+    "language-mapping",
+    "region-code",
+    "iso-codes"
   ],
   "author": "Buğra Işık",
   "license": "MIT",

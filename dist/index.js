@@ -4,10 +4,6 @@ exports.getCountryCode = getCountryCode;
 exports.getLanguageCode = getLanguageCode;
 const countryToLanguageCode_1 = require("./countryToLanguageCode");
 const languageToCountryCode_1 = require("./languageToCountryCode");
-const inverted = Object.entries(languageToCountryCode_1.languageToCountryCode).reduce((acc, [key, value]) => {
-    acc[value] = key;
-    return acc;
-}, {});
 function getCountryCode(languageCode) {
     return (languageToCountryCode_1.languageToCountryCode[languageCode] ||
         languageCode.toUpperCase());
