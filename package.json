@@ -4,6 +4,10 @@
   "description": "A library to convert language codes to country codes and vice versa.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "echo \"No tests yet\""
