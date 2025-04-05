@@ -1,1 +1,7 @@
-```typescript\nimport { getCountryCode } from \"country-language-code-converter\";\n\nconst countryCode = getCountryCode(\"en\"); // \"US\"\nconsole.log(countryCode);\n\nimport { getLanguageCode } from \"country-language-code-converter\";\n\nconst languageCode = getLanguageCode(\"US\"); // \"en\"\nconsole.log(languageCode);\n```
+```typescript
+import { getCountryCode } from "language-country-code"
+import { getLanguageCode } from "language-country-code"
+
+const countryCode = getCountryCode("en") // "US"
+const languageCode = getLanguageCode("US") // "en"
+```
