@@ -1,6 +1,6 @@
 {
   "name": "language-country-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library to convert language codes to country codes and vice versa.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
