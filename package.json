@@ -11,11 +11,17 @@
   "keywords": [
     "language",
     "country",
-    "codes",
-    "conversion"
+    "code",
+    "country-code",
+    "language-code",
+    "npm"
   ],
   "author": "Buğra Işık",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugra-isik/language-country-code"
+  },
   "devDependencies": {
     "typescript": "^5.8.3"
   }
