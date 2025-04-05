@@ -1,0 +1,22 @@
+{
+  "name": "language-country-code",
+  "version": "1.0.0",
+  "description": "A library to convert language codes to country codes and vice versa.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "language",
+    "country",
+    "codes",
+    "conversion"
+  ],
+  "author": "Buğra Işık",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
